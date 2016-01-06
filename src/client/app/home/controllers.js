@@ -1,0 +1,114 @@
+
+function homeCtrl() {
+   let hvm = this;
+
+   hvm.venue = {
+      name: 'Code Koalas',
+      img: require('../../assets/images/logos/codekoalas-logo.png'),
+      url: 'https://codekoalas.com/',
+      address: '1712 Main St STE 100 Kansas City, MO 64108'
+   };
+   hvm.map = { 
+      center: { 
+         latitude: 39.0929036, 
+         longitude: -94.5837574 
+      }, 
+      zoom: 15,
+      marker: {
+         id:0,
+         coords: {
+            latitude: 39.0929036,
+            longitude: -94.5837574
+         }
+      }
+   };
+
+};
+
+homeCtrl.$inject = []
+
+function codeCtrl() {
+   let cvm = this;
+   cvm.tools = [{
+      name: 'cupcake',
+      url: '',
+      img: require('../../assets/images/cupcake1.png')
+   }, {
+      name: 'cupcake',
+      url: '',
+      img: require('../../assets/images/cupcake2.png')
+   }, {
+      name: 'cupcake',
+      url: '',
+      img: require('../../assets/images/cupcake3.png')
+   }, {
+      name: 'cupcake',
+      url: '',
+      img: require('../../assets/images/code.png')
+   }];
+};
+
+function mentorCtrl() {
+   let mvm = this;
+
+   mvm.leaders = [{
+      name: 'Tara Morton',
+      title: 'Director',
+      img: require('../../assets/images/mentors/tara-morton.png'),
+      twitter: ''
+   }, {
+      name: 'Jennifer Wadella',
+      title: 'Founder',
+      img: require('../../assets/images/mentors/jennifer.png'),
+      twitter: 'likeOMGitsFEDAY'
+   }];
+
+   mvm.mentors = [{
+      name: 'Kate Nielsen',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/katen.jpeg'),
+      twitter: 'KateNielsenkate'
+   }, {
+      name: 'Kayla Hennegin',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/kayla.jpeg'),
+      twitter: 'bellafaith'
+   }, {
+      name: 'Amy Kurtz',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/amy.jpg'),
+      twitter: 'bellafaith'
+   }, {
+      name: 'Thuy Copeland',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/thuyc.jpg'),
+      twitter: 'bellafaith'
+   }, {
+      name: 'Nancy Alpers',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/nancy.jpeg'),
+      twitter: 'nancyalpers'
+   }, {
+      name: 'Michelle Tuason',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/michelle.png'),
+      twitter: ''
+   }, {
+      name: 'Sarah Withee',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/sarahw.jpeg'),
+      twitter: ''
+   }, {
+      name: 'Brenda Riggs',
+      title: 'Volunteer',
+      img: require('../../assets/images/mentors/brenda.jpeg'),
+      twitter: ''
+   }];
+};
+
+
+
+export default angular.module('home.controllers', [])
+   .controller('homeCtrl', homeCtrl)
+   .controller('codeCtrl', codeCtrl)
+   .controller('mentorCtrl', mentorCtrl);

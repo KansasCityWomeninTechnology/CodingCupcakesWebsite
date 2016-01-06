@@ -1,0 +1,46 @@
+<section id="signup">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h4>Sign Up!</h4>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 map">
+                <h5>Proudly hosted by {{hvm.venue.name}}</h5>
+                <a href="{{hvm.venue.url}}" target="_blank" alt="{{hvm.venue.name}}" class="host">
+                    <img src="{{hvm.venue.img}}" alt="{{hvm.venue.name}}">
+                </a>
+                <p>{{hvm.venue.address}}</p>
+                <ui-gmap-google-map center='hvm.map.center' zoom='hvm.map.zoom'>
+                    <ui-gmap-marker coords="hvm.map.marker.coords" idkey="hvm.map.marker.id" options="hvm.map.marker.options"></ui-gmap-marker>
+                </ui-gmap-google-map>
+            </div>
+            <div class="col-md-7">
+                <h5>Upcomming Session: January 9th, 2015 2-5pm
+                <p>Note: wifi-enabled laptops are required to attend!</p>
+                <div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=19919319220&ref=etckt" frameborder="0" height="580" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+               <h5>2016 Sessions</h5>
+               <ul class="list-unstyled">
+                    <li><b>January 9th</b> 2-5pm</li>
+                    <li><b>February 13th</b> 2-5pm</li>
+                    <li><b>March 12th</b> 2-5pm</li>
+                    <li><b>April 9th</b> 2-5pm</li>
+                    <li><b>May 14th</b> 2-5pm</li>
+                    <li><b>June 11th</b> 2-5pm</li>
+                    <li><b>July 9th</b> 2-5pm</li>
+                    <li><b>August 13th</b> 2-5pm</li>
+                    <li><b>September 10th</b> 2-5pm</li>
+                    <li><b>October 8th</b> 2-5pm</li>
+                    <li><b>November 12th</b> 2-5pm</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
