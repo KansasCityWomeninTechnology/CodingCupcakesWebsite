@@ -36,10 +36,17 @@ function contact() {
    }
 };
 
+function press() {
+   return {
+      template: require('./partials/press.html')
+   }
+};
+
 export default angular.module('home.directives', [])
    .directive('hero', hero)
    .directive('thecode', thecode)
    .directive('thecupcakes', thecupcakes)
    .directive('mentors', mentors)
    .directive('signup', signup)
-   .directive('contact', contact);
+   .directive('contact', contact)
+   .directive('press', press);

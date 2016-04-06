@@ -8,9 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import appConfig from './app.config.js';
 import './app/home/module.js';
-import './app/sessions/module.js';
 
 import './index.less';
 
-angular.module('app', ['ui.router', 'angular.filter', 'uiGmapgoogle-maps',  'home', 'sessions'])
+angular.module('app', ['ui.router', 'angular.filter', 'uiGmapgoogle-maps',  'home'])
    .config(appConfig);

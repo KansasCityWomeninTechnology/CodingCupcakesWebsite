@@ -64,25 +64,30 @@ function mentorCtrl() {
    }];
 
    mvm.mentors = [{
-      name: 'Kate Nielsen',
+      name: 'Olivia Mark',
       title: 'Mentor',
-      img: require('../../assets/images/mentors/katen.jpeg'),
-      twitter: 'KateNielsenkate'
+      img: require('../../assets/images/mentors/oliviamark.jpg'),
+      twitter: 'opticspec'
+   }, {
+      name: 'Jessica Ralston',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/jessicaralston.jpg'),
+      twitter: ''
+   }, {
+      name: 'Amy Kurtz',
+      title: 'Mentor',
+      img: require('../../assets/images/mentors/amy.jpg'),
+      twitter: 'amyontheweb'
    }, {
       name: 'Kayla Hennegin',
       title: 'Mentor',
       img: require('../../assets/images/mentors/kayla.jpeg'),
       twitter: 'bellafaith'
    }, {
-      name: 'Amy Kurtz',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/amy.jpg'),
-      twitter: 'bellafaith'
-   }, {
       name: 'Thuy Copeland',
       title: 'Mentor',
       img: require('../../assets/images/mentors/thuyc.jpg'),
-      twitter: 'bellafaith'
+      twitter: 'mindgraffiti'
    }, {
       name: 'Nancy Alpers',
       title: 'Mentor',
@@ -94,15 +99,10 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/michelle.png'),
       twitter: ''
    }, {
-      name: 'Sarah Withee',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/sarahw.jpeg'),
-      twitter: ''
-   }, {
       name: 'Brenda Riggs',
       title: 'Volunteer',
       img: require('../../assets/images/mentors/brenda.jpeg'),
-      twitter: ''
+      twitter: 'Riggs_Brenda'
    }];
 };
 

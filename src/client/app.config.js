@@ -9,11 +9,6 @@ export default function appConfig($stateProvider, $locationProvider, $urlRouterP
          url: '/',
          controller: 'homeCtrl as hvm',
          template: require('./app/home/views/home.html')
-      })
-      .state('sessions', {
-         url: '/sessions',
-         controller: 'sessionsCtrl as svm',
-         template: require('./app/sessions/views/sessions.html')
       });
 
      uiGmapGoogleMapApiProvider.configure({
