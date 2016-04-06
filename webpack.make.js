@@ -176,7 +176,7 @@ module.exports = function makeWebpackConfig (options) {
             filename: 'index.html',
             template: './src/client/index.html',
             inject: 'body',
-            //favicon: './src/client/assets/favicon.ico',
+            favicon: './src/client/assets/favicon.ico',
             minify: {
                collapseWhitespace: true
             }
