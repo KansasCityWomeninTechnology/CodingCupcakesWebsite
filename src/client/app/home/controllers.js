@@ -94,11 +94,6 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/nancy.jpeg'),
       twitter: 'nancyalpers'
    }, {
-      name: 'Michelle Tuason',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/michelle.png'),
-      twitter: ''
-   }, {
       name: 'Brenda Riggs',
       title: 'Volunteer',
       img: require('../../assets/images/mentors/brenda.jpeg'),
