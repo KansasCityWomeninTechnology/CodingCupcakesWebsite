@@ -8,11 +8,11 @@ function homeCtrl() {
       url: 'https://codekoalas.com/',
       address: '1712 Main St STE 100 Kansas City, MO 64108'
    };
-   hvm.map = { 
-      center: { 
-         latitude: 39.0929036, 
-         longitude: -94.5837574 
-      }, 
+   hvm.map = {
+      center: {
+         latitude: 39.0929036,
+         longitude: -94.5837574
+      },
       zoom: 15,
       marker: {
          id:0,
@@ -52,9 +52,9 @@ function mentorCtrl() {
    let mvm = this;
 
    mvm.leaders = [{
-      name: 'Tara Morton',
-      title: 'Director',
-      img: require('../../assets/images/mentors/tara-morton.png'),
+      name: 'Jody Smith',
+      title: 'Co-Director',
+      img: require('../../assets/images/mentors/jody.jpg'),
       twitter: ''
    }, {
       name: 'Jennifer Wadella',
