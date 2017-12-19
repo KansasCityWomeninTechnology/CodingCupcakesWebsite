@@ -11,5 +11,7 @@ import './app/home/module.js';
 
 import './index.less';
 
+require('./assets/favicon.ico');
+
 angular.module('app', ['ui.router', 'angular.filter', 'uiGmapgoogle-maps',  'home'])
    .config(appConfig);

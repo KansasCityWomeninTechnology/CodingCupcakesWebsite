@@ -52,10 +52,25 @@ function mentorCtrl() {
    let mvm = this;
 
    mvm.leaders = [{
-      name: 'Jody Smith',
+      name: 'Cristy Schneider',
       title: 'Co-Director',
-      img: require('../../assets/images/mentors/jody.jpg'),
+      img: require('../../assets/images/mentors/cristy.png'),
       twitter: ''
+   }, {
+      name: 'Muriel Green',
+      title: 'Curriculum Director',
+      img: require('../../assets/images/mentors/murielgreen.jpg'),
+      twitter: 'therewasnotry'
+   }, {
+      name: 'Adrienne Anderson',
+      title: 'Technical Materials Director',
+      img: require('../../assets/images/mentors/adrienne.jpg'),
+      twitter: 'aj_ander'
+   }, {
+      name: 'Patricia Robinson',
+      title: 'Marketing Director',
+      img: require('../../assets/images/mentors/user.png'),
+      twitter: 'patrishrobinson'
    }, {
       name: 'Jennifer Wadella',
       title: 'Founder',

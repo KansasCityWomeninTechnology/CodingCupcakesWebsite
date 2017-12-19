@@ -101,12 +101,18 @@ module.exports = function makeWebpackConfig (options) {
          test: /\.js$/,
          loader: 'ng-annotate!babel!jshint',
          exclude: [/node_modules/, /src\/client\/assets\/libs/]
-      }, {
+      },
+      {
          // ASSET LOADER
          // Reference: https://github.com/webpack/file-loader
-         test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|ico)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+         test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
          loader: 'file?name=./assets/[hash].[ext]'
-      }, {
+      },
+      {
+          test: /\.ico$/,
+          loader: 'file-loader?name=[name].[ext]'  // <-- retain original file name
+      },
+      {
          // HTML LOADER
          // Reference: https://github.com/webpack/raw-loader
          // Allow loading html through js
