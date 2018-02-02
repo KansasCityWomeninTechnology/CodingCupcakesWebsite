@@ -2,23 +2,43 @@
 function homeCtrl() {
    let hvm = this;
 
+   // hvm.venue = {
+   //    name: 'Code Koalas',
+   //    img: require('../../assets/images/logos/codekoalas-logo.png'),
+   //    url: 'https://codekoalas.com/',
+   //    address: '1712 Main St STE 100 Kansas City, MO 64108'
+   // };
+   // hvm.map = {
+   //    center: {
+   //       latitude: 39.0929036,
+   //       longitude: -94.5837574
+   //    },
+   //    zoom: 15,
+   //    marker: {
+   //       id:0,
+   //       coords: {
+   //          latitude: 39.0929036,
+   //          longitude: -94.5837574
+   //       }
+   //    }
+   // };
    hvm.venue = {
-      name: 'Code Koalas',
-      img: require('../../assets/images/logos/codekoalas-logo.png'),
-      url: 'https://codekoalas.com/',
-      address: '1712 Main St STE 100 Kansas City, MO 64108'
+      name: 'Plexpod Westport',
+      img: require('../../assets/images/logos/plexpod-logo.png'),
+      url: 'https://www.plexpod.com/',
+      address: '300 E 39th St Kansas City, MO 64111'
    };
    hvm.map = {
       center: {
-         latitude: 39.0929036,
-         longitude: -94.5837574
+         latitude: 39.0565343,
+         longitude: -94.58250040000001
       },
       zoom: 15,
       marker: {
          id:0,
          coords: {
-            latitude: 39.0929036,
-            longitude: -94.5837574
+            latitude: 39.0565343,
+            longitude: -94.58250040000001
          }
       }
    };
@@ -55,7 +75,7 @@ function mentorCtrl() {
       name: 'Cristy Schneider',
       title: 'Co-Director',
       img: require('../../assets/images/mentors/cristy.png'),
-      twitter: ''
+      twitter: 'cschneider143'
    }, {
       name: 'Muriel Green',
       title: 'Curriculum Director',
