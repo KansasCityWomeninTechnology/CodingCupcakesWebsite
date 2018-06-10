@@ -24,7 +24,7 @@ function homeCtrl() {
    // };
    hvm.venue = {
       name: 'Kansas City Convention Center',
-      img: require('../../assets/images/logos/07-26-07-34-kansas-city-convention-center.png'),
+      img: require('../../assets/images/logos/07-26-07-34-kansas-city-convention-center.jpeg'),
       url: 'https://www.kcconvention.com/',
       address: '301 W 13th St Kansas City, MO 64105'
    };
