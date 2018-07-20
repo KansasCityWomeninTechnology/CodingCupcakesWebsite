@@ -23,22 +23,22 @@ function homeCtrl() {
    //    }
    // };
    hvm.venue = {
-      name: 'Kansas City Convention Center',
-      img: require('../../assets/images/logos/07-26-07-34-kansas-city-convention-center.jpeg'),
-      url: 'https://www.kcconvention.com/',
-      address: '301 W 13th St Kansas City, MO 64105'
+      name: 'Plexpod',
+      img: require('../../assets/images/logos/plexpod-logo.png'),
+      url: 'https://www.plexpod.com/',
+      address: '300 E 39th St Kansas City, MO 64111'
    };
    hvm.map = {
       center: {
-         latitude: 39.0987,
-         longitude: -94.5877
+         latitude: 39.0568,
+         longitude: -94.5822
       },
       zoom: 15,
       marker: {
          id:0,
          coords: {
-            latitude: 39.0987,
-            longitude: -94.5877
+            latitude: 39.0568,
+            longitude: -94.5822
          }
       }
    };
