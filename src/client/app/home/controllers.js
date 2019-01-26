@@ -24,21 +24,21 @@ function homeCtrl() {
    // };
    hvm.venue = {
       name: 'VML, inc. Headquarters',
-      img: require('../../assets/images/logos/FINAL_TWO_Color.png'),
+      //img: require('../../assets/images/logos/FINAL_TWO_COLOR.png'),
       url: 'https://www.vml.com/',
-      address: '250 Richards Rd, Kansas City, MO 64116'
+      address: '250 Richards Rd Kansas City, MO 64116'
    };
    hvm.map = {
       center: {
-         latitude: 39.120904,
+         latitude: 39.120875,
          longitude: -94.590542
       },
       zoom: 15,
       marker: {
          id:0,
          coords: {
-            latitude: 39.0568,
-            longitude: -94.5822
+            latitude: 39.120875,
+            longitude: -94.590542
          }
       }
    };
