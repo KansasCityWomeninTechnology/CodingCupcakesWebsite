@@ -23,15 +23,15 @@ function homeCtrl() {
    //    }
    // };
    hvm.venue = {
-      name: 'Plexpod',
-      img: require('../../assets/images/logos/plexpod-logo.png'),
-      url: 'https://www.plexpod.com/',
-      address: '300 E 39th St Kansas City, MO 64111'
+      name: 'VML, inc. Headquarters',
+      img: require('../../assets/images/logos/FINAL_TWO_Color.png'),
+      url: 'https://www.vml.com/',
+      address: '250 Richards Rd, Kansas City, MO 64116'
    };
    hvm.map = {
       center: {
-         latitude: 39.0568,
-         longitude: -94.5822
+         latitude: 39.120904,
+         longitude: -94.590542
       },
       zoom: 15,
       marker: {
