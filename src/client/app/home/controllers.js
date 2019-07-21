@@ -28,32 +28,35 @@ function homeCtrl() {
 //     img: require('../../assets/images/logos/07-26-07-34-kansas-city-convention-center.png'),
 //   url: 'https://www.vml.com/',
 //      address: '301 W 13th Street, Kansas City MO 64105'
+//  };
 //   hvm.map = {
-//    center: {
+  //    center: {
   //      latitude: 39.098913,
   //       longitude: -94.587681
   //    },
-  //    zoom: 15,
-  //    marker: {
-  //       id:0,
-  //       coords: {
-    //        latitude: 39.098913,
-    //        longitude: -94.587681
-    //     }
-  //    }
+//      zoom: 15,
+//      marker: {
+//         id:0,
+//         coords: {
+//            latitude: 39.098913,
+//            longitude: -94.587681
+//         }
+//      }
 //   };
-//};
+
    hvm.venue = {
-     name: 'VML, inc. Headquarters',
-     img: require('../../assets/images/logos/FINAL_TWO_COLOR.png'),
-     url: 'https://www.vml.com/',
-     hvm.map = {
+      name: 'VML, inc. Headquarters',
+      img: require('../../assets/images/logos/FINAL_TWO_COLOR.png'),
+      url: 'https://www.vml.com/',
+      address: '250 Richards Rd Kansas City, MO 64116'
+   };
+   hvm.map = {
       center: {
          latitude: 39.120875,
          longitude: -94.590542
       },
       zoom: 15,
-      marker: {
+    marker: {
          id:0,
          coords: {
             latitude: 39.120875,
