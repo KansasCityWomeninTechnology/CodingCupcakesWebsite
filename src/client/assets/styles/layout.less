@@ -309,3 +309,15 @@ width: 300px;
 height: 300px;
 background-color: #CCC;
 }
+
+// Hides text visually but ensures it is still accessible to screen readers.
+.screen-reader-only {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}

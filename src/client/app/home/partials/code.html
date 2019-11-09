@@ -4,7 +4,7 @@
             <div class="row margin-top" ng-repeat="tools in cvm.tools | chunkBy:2">
                 <div class="col-md-6" ng-repeat="tool in tools">
                     <a href="{{tool.url}}" target="_blank">
-                        <img src="{{tool.img}}" />
+                        <img src="{{tool.img}}" alt="{{tool.name}}" />
                     </a>
                 </div>
             </div>
