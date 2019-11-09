@@ -2,27 +2,6 @@
 function homeCtrl() {
    let hvm = this;
 
-   // hvm.venue = {
-   //    name: 'Code Koalas',
-   //    img: require('../../assets/images/logos/codekoalas-logo.png'),
-   //    url: 'https://codekoalas.com/',
-   //    address: '1712 Main St STE 100 Kansas City, MO 64108'
-   // };
-   // hvm.map = {
-   //    center: {
-   //       latitude: 39.0929036,
-   //       longitude: -94.5837574
-   //    },
-   //    zoom: 15,
-   //    marker: {
-   //       id:0,
-   //       coords: {
-   //          latitude: 39.0929036,
-   //          longitude: -94.5837574
-   //       }
-   //    }
-   // };
-
 //   hvm.venue = {
 //      name: 'Bartle Hall',
 //     img: require('../../assets/images/logos/07-26-07-34-kansas-city-convention-center.png'),
@@ -64,10 +43,9 @@ function homeCtrl() {
          }
       }
    };
+}
 
-};
-
-homeCtrl.$inject = []
+homeCtrl.$inject = [];
 
 function codeCtrl() {
    let cvm = this;
@@ -88,31 +66,26 @@ function codeCtrl() {
       url: '',
       img: require('../../assets/images/code.png')
    }];
-};
+}
 
 function mentorCtrl() {
    let mvm = this;
 
    mvm.leaders = [{
-      name: 'Cristy Schneider',
+      name: 'Rachel Aitkens',
+      title: 'Program Director',
+      img: require('../../assets/images/mentors/rachel.jpg'),
+      twitter: 'rachel724'
+   }, {
+      name: 'Liz Utuk',
       title: 'Co-Director',
-      img: require('../../assets/images/mentors/cristy.png'),
-      twitter: 'cschneider143'
+      img: require('../../assets/images/mentors/liz.jpg'),
+      twitter: 'LizUtuk'
    }, {
-      name: 'Muriel Green',
-      title: 'Curriculum Director',
-      img: require('../../assets/images/mentors/murielgreen.jpg'),
-      twitter: 'therewasnotry'
-   }, {
-      name: 'Adrienne Anderson',
-      title: 'Technical Materials Director',
-      img: require('../../assets/images/mentors/adrienne.jpg'),
-      twitter: 'aj_ander'
-   }, {
-      name: 'Patricia Robinson',
-      title: 'Marketing Director',
-      img: require('../../assets/images/mentors/user.png'),
-      twitter: 'patrishrobinson'
+      name: 'Jack Kolze',
+      title: 'Mentor Director',
+      img: require('../../assets/images/mentors/jack.png'),
+      twitter: 'just_jacquelin'
    }, {
       name: 'Jennifer Wadella',
       title: 'Founder',
@@ -120,45 +93,13 @@ function mentorCtrl() {
       twitter: 'likeOMGitsFEDAY'
    }];
 
-   mvm.mentors = [{
-      name: 'Olivia Mark',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/oliviamark.jpg'),
-      twitter: 'opticspec'
-   }, {
-      name: 'Jessica Ralston',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/jessicaralston.jpg'),
-      twitter: ''
-   }, {
-      name: 'Amy Kurtz',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/amy.jpg'),
-      twitter: 'amyontheweb'
-   }, {
-      name: 'Kayla Hennegin',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/kayla.jpeg'),
-      twitter: 'bellafaith'
-   }, {
-      name: 'Thuy Copeland',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/thuyc.jpg'),
-      twitter: 'mindgraffiti'
-   }, {
-      name: 'Nancy Alpers',
-      title: 'Mentor',
-      img: require('../../assets/images/mentors/nancy.jpeg'),
-      twitter: 'nancyalpers'
-   }, {
-      name: 'Brenda Riggs',
-      title: 'Volunteer',
-      img: require('../../assets/images/mentors/brenda.jpeg'),
-      twitter: 'Riggs_Brenda'
-   }];
-};
-
-
+   // mvm.mentors = [{
+   //    name: 'Olivia Mark',
+   //    title: 'Mentor',
+   //    img: require('../../assets/images/mentors/oliviamark.jpg'),
+   //    twitter: 'opticspec'
+   // }];
+}
 
 export default angular.module('home.controllers', [])
    .controller('homeCtrl', homeCtrl)

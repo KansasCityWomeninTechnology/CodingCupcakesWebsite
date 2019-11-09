@@ -1,5 +1,5 @@
 {
-  "name": "codingandcocktails",
+  "name": "codingandcupcakes",
   "version": "0.0.0",
   "scripts": {
     "lint": "jshint src/client/app/*.js",
