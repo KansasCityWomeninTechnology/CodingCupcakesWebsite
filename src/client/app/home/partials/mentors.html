@@ -3,14 +3,14 @@
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
-                <h4>The Mentors</h4>
+                <h4>The Team</h4>
                 <h5>These ladies write code for their day job and can't wait to help you get started. They're kind of like super heroes, with great taste!</h5>
             </div>
             <div class="col-md-1"></div>
         </div>
-        <div class="row margin-bottom" >
-            <div class="col-md-1">
-            </div>
+        <div class="row margin-bottom margin-top" >
+            <!-- <div class="col-md-1">
+            </div> -->
             <div class="col-md-3 mentor" ng-repeat="leader in mvm.leaders">
                 <a href="http://www.twitter.com/{{leader.twitter}}" target="_blank">
                     <img class="img-circle" src="{{leader.img}}" alt="{{leader.name}}"/>
@@ -18,8 +18,8 @@
                     <p>{{leader.title}}</p>
                 </a>
             </div>
-            <div class="col-md-1">
-            </div>
+            <!-- <div class="col-md-1">
+            </div> -->
         </div>
         <div class="row margin-top" ng-repeat="mentors in mvm.mentors | chunkBy:4">
             <div class="col-md-3 mentor" ng-repeat="mentor in mentors">
