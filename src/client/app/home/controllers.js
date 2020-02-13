@@ -72,6 +72,11 @@ function mentorCtrl() {
    let mvm = this;
 
    mvm.leaders = [{
+      name: 'Jennifer Wadella',
+      title: 'Founder',
+      img: require('../../assets/images/mentors/jennifer.png'),
+      twitter: 'likeOMGitsFEDAY'
+   }, {
       name: 'Rachel Aitkens',
       title: 'Program Director',
       img: require('../../assets/images/mentors/rachel.jpg'),
@@ -87,10 +92,10 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/jack.png'),
       twitter: 'just_jacquelin'
    }, {
-      name: 'Jennifer Wadella',
-      title: 'Founder',
-      img: require('../../assets/images/mentors/jennifer.png'),
-      twitter: 'likeOMGitsFEDAY'
+      name: 'Jackie Nguyen',
+      title: 'Marketing Director',
+      img: require('../../assets/images/mentors/jackie.jpeg'),
+      twitter: 'jnguyen916'
    }];
 
    // mvm.mentors = [{
