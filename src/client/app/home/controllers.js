@@ -77,16 +77,6 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/jennifer.png'),
       twitter: 'likeOMGitsFEDAY'
    }, {
-      name: 'Rachel Aitkens',
-      title: 'Program Director',
-      img: require('../../assets/images/mentors/rachel.jpg'),
-      twitter: 'rachel724'
-   }, {
-      name: 'Liz Utuk',
-      title: 'Co-Director',
-      img: require('../../assets/images/mentors/liz.jpg'),
-      twitter: 'LizUtuk'
-   }, {
       name: 'Jack Kolze',
       title: 'Mentor Director',
       img: require('../../assets/images/mentors/jack.png'),
