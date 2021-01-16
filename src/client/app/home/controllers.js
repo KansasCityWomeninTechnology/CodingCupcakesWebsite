@@ -77,10 +77,24 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/jennifer.png'),
       twitter: 'likeOMGitsFEDAY'
    }, {
+      name: 'Holli Hazelwood',
+      title: 'Program Director',
+      img: require('../../assets/images/mentors/Holli.jpeg'),
+      twitter: 'girlsgetitdone1'
+   },{
       name: 'Jack Kolze',
       title: 'Mentor Director',
       img: require('../../assets/images/mentors/jack.png'),
       twitter: 'just_jacquelin'
+   },{
+      name: 'Ashley Erffmeyer',
+      title: 'Curriculum Director',
+      img: require('../../assets/images/mentors/Ashley.jpg'),
+      twitter: 'ashleyerffmeyer'
+   },{
+      name: 'Krithika Nagarajan',
+      title: 'Presentation Director',
+      img: require('../../assets/images/mentors/Krithika.jpg')
    }, {
       name: 'Jackie Nguyen',
       title: 'Marketing Director',
