@@ -82,15 +82,15 @@ function mentorCtrl() {
       img: require('../../assets/images/mentors/Holli.jpeg'),
       twitter: 'girlsgetitdone1'
    },{
+      name: 'Ivy Nelson',
+      title: 'Co-Director',
+      img: require('../../assets/images/mentors/ivy_nelson.jpeg'),
+      twitter: 'ivytechy'
+   },{
       name: 'Jack Kolze',
       title: 'Mentor Director',
       img: require('../../assets/images/mentors/jack.png'),
       twitter: 'just_jacquelin'
-   },{
-      name: 'Ashley Erffmeyer',
-      title: 'Curriculum Director',
-      img: require('../../assets/images/mentors/Ashley.jpg'),
-      twitter: 'ashleyerffmeyer'
    },{
       name: 'Krithika Nagarajan',
       title: 'Presentation Director',
