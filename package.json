@@ -34,7 +34,7 @@
     "angular-ui-router": "^0.3.2",
     "babel": "^5.8.19",
     "body-parser": "^1.14.1",
-    "express": "^4.13.3",
+    "express": "^4.17.3",
     "lodash": ">=4.17.13",
     "path": "^0.12.7",
     "serve-favicon": "^2.3.0",
