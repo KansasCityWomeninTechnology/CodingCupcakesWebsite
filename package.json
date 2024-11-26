@@ -35,7 +35,7 @@
     "babel": "^5.8.19",
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
-    "lodash": ">=4.17.13",
+    "lodash": ">=4.17.21",
     "path": "^0.12.7",
     "serve-favicon": "^2.3.0",
     "webpack": "^1.12.2"
